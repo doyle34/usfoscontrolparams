@@ -2,7 +2,7 @@
   "name": "usfoscontrolparams",
   "displayName": "Usfos Control Parameter Language Extension",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "doyle34",
   "repository": "https://github.com/doyle34/usfoscontrolparams.git",
   "engines": {

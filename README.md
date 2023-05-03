@@ -12,7 +12,7 @@ The `!` in-line comment is not recognized as a comment.
 
 ## Release Notes
 
-### 0.0.1
+### 0.0.2
 
 Beta release
 

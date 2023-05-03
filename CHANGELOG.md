@@ -4,7 +4,7 @@ All notable changes to this extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## 0.0.1
+## 0.0.2
 
 - Beta release, for a personal use.
 - Support files with .fem extensions only.
