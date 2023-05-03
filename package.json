@@ -1,0 +1,25 @@
+{
+  "name": "usfoscontrolparams",
+  "displayName": "usfoscontrolparams",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "usfoscontrolparam",
+      "aliases": ["Usfos Control Parameter", "usfoscontrolparam"],
+      "extensions": [".fem"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "usfoscontrolparam",
+      "scopeName": "source.fem",
+      "path": "./syntaxes/usfoscontrolparam.tmLanguage.json"
+    }]
+  }
+}

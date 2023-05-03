@@ -1,0 +1,45 @@
+{
+	"scopeName": "source.fem",
+	"fileTypes": ["fem"],
+	"patterns": [
+	  {
+		"begin": "^HEAD$",
+		"end": "^END$",
+		"name": "comment.line.fem-head",
+		"patterns": [
+		  {
+			"match": "^HEAD$",
+			"name": "punctuation.definition.comment.fem-head"
+		  },
+		  {
+			"match": "^.*$",
+			"name": "comment.fem-head"
+		  },
+		  {
+			"match": "^END$",
+			"name": "punctuation.definition.comment.fem-head"
+		  }
+		]
+	  },
+	  {
+		"match": "^(\\w+)$",
+		"name": "variable.other.fem"
+	  },
+	  {
+		"match": "^(\\w+)\\s+(.*)$",
+		"captures": {
+		  "1": {
+			"name": "variable.other.fem"
+		  },
+		  "2": {
+			"name": "constant.other.fem"
+		  }
+		}
+	  },
+	  {
+		"name": "comment.line.fem",
+		"match": "^[\\s]*(\\'|\\*|#|%|!).*$"
+	  }
+	]
+  }
+  
